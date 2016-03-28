@@ -10,4 +10,7 @@ class RoboFile extends \Robo\Tasks
     {
         $this->say("Hello, $world");
     }
+    function hola($nombre){
+    	$this->say("Hola como estas?");
+    }
 }
