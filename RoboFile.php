@@ -14,4 +14,8 @@ class RoboFile extends \Robo\Tasks
     function adio(){
     	$this->say("ADIOOS");
     }
+    function hola($nombre){
+    	$this->say("Hola como estas?");
+
+    }
 }
